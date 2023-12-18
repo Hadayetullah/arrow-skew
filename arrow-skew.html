@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.main {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    transform: rotate(50deg);
+}
+.line {
+  width: 22px;
+  height: 5px;
+  background-color: black;
+  transform: rotate(57deg) skewX(45deg);
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  border-radius: 200px 150px 100px 0;
+}
+.line1 {
+  width: 22px;
+  height: 5px;
+  background-color: black;
+  transform: rotate(-57deg) skewX(-45deg);
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  border-radius: 150px 200px 0 100px;
+}
+
+</style>
+</head>
+<body>
+<div class="main">
+    <div class="line"></div>
+    <div class="line1"></div>
+</div>
+</body>
+</html>
+
+
